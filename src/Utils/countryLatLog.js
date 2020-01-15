@@ -15,7 +15,7 @@ const getCountryByIp = (ip_,country,callbackvalue)=>
     
     }catch
     {
-        callbackvalue('30.048819'+',31.243666')
+        callbackvalue('30.048819'+',31.243666','Egypt')
     }
 }
 
@@ -31,11 +31,11 @@ const getcountry = (value , callbackvalue)=>
         
         if(error)
         {
-            callbackvalue('30.048819'+',31.243666','egypt')
+            callbackvalue('30.048819'+',31.243666','Egypt')
         }
         if(resBody.code === 400)
         {
-            callbackvalue('30.048819'+',31.243666','egypt')
+            callbackvalue('30.048819'+',31.243666','Egypt')
         }
         callbackvalue(resBody.results[0].geometry.lat +','+resBody.results[0].geometry.lng,resBody.results[0].formatted);
         
