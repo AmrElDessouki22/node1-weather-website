@@ -23,7 +23,7 @@ hbs.registerPartials(partionspath)
 
 app.get('',(req,res) => {
   
-    countrylaglong.getCountryByIp('98.190.48.67',req.query.country,(longlag,country)=>{
+    countrylaglong.getCountryByIp(req.connection.remoteAddress,req.query.country,(longlag,country)=>{
         getCallBack.getCallBack(url+longlag,(erorr,rescallback)=>
         {
             if(erorr)
