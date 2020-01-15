@@ -5,7 +5,7 @@ const hbs = require('hbs')
 const countrylaglong = require('./Utils/countryLatLog')
 const getCallBack = require('./Utils/getcallback')
 const getData = require('./Utils/getData')
-
+const port = process.env.PORT
 
 const url = 'https://api.darksky.net/forecast/1b741728e7a5a486e629bb51feeb3b15/'
 
@@ -17,6 +17,7 @@ app.use(express.static(filepathpublic))
 app.set('view engine', 'hbs');
 app.set('views',viewspath)
 hbs.registerPartials(partionspath)
+
 
 
 
@@ -65,4 +66,4 @@ app.get('*',(req,res)=>
 
 
 
-app.listen(3000)
+app.listen(port)
