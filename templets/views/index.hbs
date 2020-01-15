@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Sky High Weather</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		
+	</head>
+	<body class="homepage">
+
+	<!-- Header -->
+		<div id="header">
+			<div class="container">
+					
+				<!-- Logo -->
+					<div id="logo">
+						<h1><a href="#">Weather</a></h1>
+						<span>Made by Amr Eldessouki</span>
+					</div>
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="active"><a href="/">Homepage</a></li>
+							<li><a href="/about">about</a></li>
+							
+							
+						</ul>
+					</nav>
+
+			</div>
+		</div>
+	<!-- Header -->
+			
+	<!-- Main -->
+		<div id="main">
+			<form >
+			<div class="search">  
+            <input id="country" class = "inputt" type="text" placeholder={{country}} >
+            <button class="button">search</button>
+			</div>
+			</form>
+			
+			<div class="divspans">
+			<span>Country : {{country}} |</span>
+			<span>Date : {{time}} | </span>
+			<span>Humidity : {{humidity}} |</span>
+			<span>windSpeed : {{windSpeed}}</span>
+			</div>
+			<div class="rows" >
+            <img  class ="imgiconcloud" src="images/climate.png" alt="">
+		
+			<h1>{{temp}}</h1>
+			</div>
+			
+			
+			
+			
+			<div class="container">
+				<header>
+					<h2 class="h2">Next Few Days</h2>
+				</header>
+				<div class="row">
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images/climate.png" alt="" /></a>
+							<div class="divspans2">
+							<span>Date : {{time0}}</span>
+							<span>Humidity : {{humidity0}}</span>
+							<span>windSpeed : {{windSpeed0}}</span>
+							</div>
+							<h1>{{temp0}}</h1>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images/climate.png" alt="" /></a>
+							<div class="divspans2">
+							<span>Date : {{time1}}</span>
+							<span>Humidity : {{humidity1}}</span>
+							<span>windSpeed : {{windSpeed1}}</span>
+							</div>
+							<h1>{{temp1}}</h1>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images/climate.png" alt="" /></a>
+							<div class="divspans2">
+							<span>Date : {{time2}}</span>
+							<span>Humidity : {{humidity2}}</span>
+							<span>windSpeed : {{windSpeed2}}</span>
+							</div>
+							<h1>{{temp2}}</h1>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images/climate.png" alt="" /></a>
+							<div class="divspans2">
+							<span>Date : {{time3}}</span>
+							<span>Humidity : {{humidity3}}</span>
+							<span>windSpeed : {{windSpeed3}}</span>
+							</div>
+							<h1>{{temp3}}</h1>
+						</section>
+					</div>
+				</div>
+				<div class="divider">&nbsp;</div>
+				<div class="row">
+				
+					
+						
+				
+						
+				</div>
+			
+			</div>
+		</div>
+	<!-- Main -->
+
+
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+			</div>
+		</div>
+<script src="/js/test.js"></script>
+	</body>
+</html>

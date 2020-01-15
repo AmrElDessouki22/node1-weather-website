@@ -1,0 +1,22 @@
+{
+  "name": "quizexpess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "quiz.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "geoip-country": "^3.4.1",
+    "geoip-lite": "^1.4.0",
+    "hbs": "^4.0.6",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.0",
+    "request-ip": "^2.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
