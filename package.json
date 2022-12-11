@@ -4,7 +4,7 @@
   "description": "",
   "main": "quiz.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "geoip-country": "^3.4.1",
     "geoip-lite": "^1.4.0",
     "hbs": "^4.0.6",
